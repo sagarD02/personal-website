@@ -4,7 +4,7 @@
 
 # personal-portfolio
 
-[Demo](https://salomonelli.github.io/personal-portfolio/)
+[Demo](https://sagar.github.io/personal-website/)
 
 This portfolio is made with [React](https://github.com/facebook/react), [Material UI](https://github.com/callemall/material-ui) and lots of love.
 Although it is my personal portfolio, feel free to fork and have fun with it.
