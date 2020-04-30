@@ -11,12 +11,11 @@ import Typography from '@material-ui/core/Typography';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
-
+import Services from '../services'
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    padding:20,
-    backgroundColor:'#e9e9e9'
+    padding:25,
   },
  
   bullet: {
@@ -35,8 +34,10 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: 12,
   },
   padding:{
-    padding:20,
-  }
+    padding:27,
+  },
+  
+  
 }));
 
 function ListItemLink(props) {
@@ -62,7 +63,7 @@ export default function AboutComponent () {
                   
                 </CardContent>
                 <CardActions>
-                <Button variant="outlined">View CV</Button>
+               <a className="link" target="_blank" href="https://drive.google.com/open?id=14ac8XPcAyX-w-mZCYXx3miZmbCbDhaGy"> <Button variant="outlined">View CV</Button></a>
 
                 </CardActions>
               </Card>              
@@ -71,6 +72,7 @@ export default function AboutComponent () {
                
                   <ProgrammingComponent></ProgrammingComponent>
                   <VerticalLinearStepper></VerticalLinearStepper>
+                  <Services></Services>
                   <Certifications></Certifications>
             </div>
     

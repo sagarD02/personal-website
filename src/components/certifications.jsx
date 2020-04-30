@@ -14,7 +14,6 @@ const useStyles = makeStyles((theme) => ({
    paddingTop:10,
   },
   paper: {
-    maxWidth: 400,
     padding: theme.spacing(2),
   },
 }));
@@ -30,15 +29,16 @@ export default function Certifications() {
             
         </div>
       <Paper className={classes.paper}>
-        <Grid container wrap="nowrap" spacing={2}>
-          <Grid item>
-          <Avatar alt="Remy Sharp" src={require("../images/udemy.png") }/>
+          <Grid container wrap="nowrap" spacing={2}>
+            <Grid item>
+            <Avatar alt="Remy Sharp" src={require("../images/udemy.png") }/>
+            </Grid>
+            <Grid item xs zeroMinWidth>
+              <Typography noWrap>ReactJs Web Development</Typography>
+              <Typography>Udemy</Typography>
+            </Grid>
           </Grid>
-          <Grid item xs zeroMinWidth>
-            <Typography noWrap>ReactJs Web Development</Typography>
-            <Typography>Udemy</Typography>
-          </Grid>
-        </Grid>
+    
       </Paper>
       <Paper className={classes.paper}>
         <Grid container wrap="nowrap" spacing={2}>

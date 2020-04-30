@@ -13,6 +13,9 @@
   overflow: hidden;
 }
 
+.link{
+  text-decoration: none;
+}
 .ant-carousel .slick-slide h3 {
   color: #fff;
 }

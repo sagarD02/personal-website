@@ -173,7 +173,7 @@ export default function ResponsiveDrawer() {
         <List>
             
             <ListItem className={classes.listItem}>
-                <Avatar className={classes.large} alt="Remy Sharp" src={require("../images/avatar.jpg") }/>
+                <Avatar className={classes.large} alt="Remy Sharp" src={require("../images/pic_main.png") }/>
 
             </ListItem>
          

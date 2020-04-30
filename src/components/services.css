@@ -1,0 +1,22 @@
+.sub-heading{
+    font-size: 30px;
+   font-weight: 400px;
+   text-transform: uppercase;
+   text-align: center;
+   margin: 0px;
+  
+ }
+ .title{
+   color: #fd7070;
+   font-weight: bold;
+ }
+ .container{
+   display:flex;
+   padding-top: 20px;
+   padding-bottom: 20px;
+ }
+ .card-panel{
+     display: flex;
+    justify-content: space-between;
+    width: 200px;
+ }

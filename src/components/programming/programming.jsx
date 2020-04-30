@@ -16,7 +16,7 @@ class ProgrammingComponent extends Component {
             <div className="programming">
               <div className="container">
                 <h2 className="sub-heading">Programming <span className="title">Skills</span> <Divider variant="middle" /> </h2>
-            
+             
                </div>
                 <div className="programming-console">
                     <Paper zDepth={3} style={style}>
