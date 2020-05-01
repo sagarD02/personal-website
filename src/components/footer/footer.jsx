@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import './footer.css';
 import FlatButton from 'material-ui/FlatButton';
 const scrollTo = require('scroll-to');
+import Typography from '@material-ui/core/Typography';
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
 
 class FooterComponent extends Component {
 
@@ -16,25 +19,21 @@ class FooterComponent extends Component {
     return (
       <div className="footer">
         <div className="link-list">
-          <a target="_blank" href="https://github.com/salomonelli">
-            Github
-          </a>
-           /
-          <a target="_blank" href="https://twitter.com/salomonelli">
-            Twitter
-          </a>
-           /
-          <a target="_blank" href="https://www.xing.com/profile/Sara_Steiert">
-            Xing
-          </a>
-           /
-          <a target="_blank" href="https://www.linkedin.com/in/sara-steiert-b0a631134/">
-            LinkedIn
-          </a>
+        <Card>
+            <CardContent>
+                <Typography >LOOK AT MY CODE, MY CODE IS AMAZING</Typography>
+                <Typography className="footer-text">This Website is made with React and Material UI. Check out the code on Github.</Typography>
+              
+              <Typography className="footer-text"><a  target="_blank" href="https://github.com/sagarD02/personal-website">
+                VIEW ON GITHUB
+              </a>
+              </Typography>
+
+              </CardContent>
+          </Card>
+          
         </div>
-        <FlatButton labelStyle={{
-          "color": "rgba(0, 0, 0, 0.65)"
-        }} label="Back to top" onClick={this.onScrollToTop}/>
+        <FlatButton label="Back to top" onClick={this.onScrollToTop}/>
       </div>
     );
   }
