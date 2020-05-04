@@ -13,11 +13,9 @@
     "material-icons-react": "^1.0.4",
     "material-ui": "0.17.4",
     "pure-react": "^1.0.4",
-    "pure-react-carousel": "^1.27.1",
     "react": "^16.13.1",
     "react-cli": "^0.3.1",
     "react-dom": "^16.13.1",
-    "react-material-ui-carousel": "^1.1.1",
     "roboto-npm-webfont": "0.0.2",
     "scroll-to": "0.0.2",
     "validator": "7.0.0"
