@@ -19,6 +19,19 @@ class FooterComponent extends Component {
     return (
       <div className="footer">
         <div className="link-list">
+
+          <Card className="padding">
+            <CardContent>
+                <Typography>I OFTEN WRITE...</Typography>
+                
+              
+              <Typography className="footer-text"><a  target="_blank" href="https://medium.com/@sagardakhore555/how-to-create-your-portfolio-website-using-react-js-material-ui-33668eae5818">
+                VIEW BLOG
+              </a>
+              </Typography>
+
+              </CardContent>
+          </Card>
         <Card>
             <CardContent>
                 <Typography >LOOK AT MY CODE, MY CODE IS AMAZING</Typography>
@@ -31,6 +44,8 @@ class FooterComponent extends Component {
 
               </CardContent>
           </Card>
+
+           
           
         </div>
         <FlatButton label="Back to top" onClick={this.onScrollToTop}/>

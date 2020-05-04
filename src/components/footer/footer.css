@@ -1,6 +1,6 @@
 .footer {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 40px;
 }
 
@@ -22,4 +22,7 @@
 
 .link-list a:first-of-type {
   margin-left: 0;
+}
+.padding{
+  margin-bottom: 20px;
 }
